@@ -7,19 +7,23 @@ nav{
     width: 100%;
     z-index: 999;
 }
+
 nav img{
     margin-left: 20px;
 }
+
 nav ul{
     list-style: none;
     display: flex;
     align-items: center;
 }
+
 nav ul li{
     margin-right: 20px;
     font-size: 20px;
     color: #ffffff;
 }
+
 nav ul li button{
     font-size: 18px;
     color: #b90000;
@@ -29,12 +33,14 @@ nav ul li button{
     border-radius: 150px;
     border: none
 }
+
 nav ul li button:hover{
     color: #ffffff;
     background-color: #b90000;
     transition: 400ms;
     border: 1px solid #ffffff;
 }
+
 .hero{
     display: flex;
     height: 90vh;
@@ -43,20 +49,24 @@ nav ul li button:hover{
     background-image: url(../assets/hero.jpg);
     background-size: cover;
 }
+
 .hero .text-content{
     color: #ffffff;
     text-align: center;
 }
+
 .hero .text-content h1{
     font-size: 70px;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 .hero .text-content h3{
     font-size: 30px;
-    font-weight: normal;
+    font-weight: 600;
     margin-bottom: 15px;
 }
+
 .hero .text-content button{
     width: 250px;
     font-size: 15px;
@@ -66,8 +76,46 @@ nav ul li button:hover{
     border: none;
     border-radius: 999px;
 }
+
 .hero .text-content button:hover{
     color: #b90000;
     background-color: #ffffff;
     transition: 400ms;
+}
+
+.beneficios h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.beneficios .item{
+    margin-top: 40px;
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.beneficios .item .itemphoto{
+    display:flex;
+    justify-content: left;
+}
+
+.beneficios .item .itemphoto .imgitem{
+    width: 70%;
+    height: auto;
+}
+.beneficios .item .item-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.beneficios .item .item-text h3{
+    color: #b90000;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
