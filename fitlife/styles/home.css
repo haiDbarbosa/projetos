@@ -129,17 +129,18 @@ nav ul li button:hover{
 }
 
 .clients{
-    height: 90vh;
+    min-height: 90vh;
+    width: 100%;
     background-image: linear-gradient(to bottom, #ffffff, #b900006b);
 }
 
 .clients .text{
-    text-align: center;
+    text-align: left;
 }
 
 .clients .text h2{
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: bolder;
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
@@ -151,30 +152,163 @@ nav ul li button:hover{
 .clients .containercards{
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
-    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 30px 50px;
+}
+
+.clients .containercards .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.clients .containercards .left .vertical{
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.clients .containercards .right{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding-top: 200px;
+}
+
+.clients .containercards .right .horizontal{
+    width: 400px;
+    height: 280px;
+}
+
+.clients .containercards .right .retangular{
+    margin-top: 20px;
+    width: 330px;
+    height: 250px;
 }
 
 .clients .containercards .card{
     display: flex;
     flex-direction: column;
-    padding: 10px 20px 5px 20px;
+    padding: 40px 20px 10px 30px;
     background-color: #ffffff;
     box-shadow: 2px 2px 6px 2px #0000003f;
-    height: 50vh;
     text-align: left;
-    width: 20%;
     border-radius: 10px;
+    min-width: 200px;
+}
+
+.clients .containercards .card .cardcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.clients .containercards .card .cardcontent .person{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.clients .containercards .card .cardcontent .person .image{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 999px;
+}
+
+.clients .containercards .card .cardcontent .person .textcontent{
+    margin-left: 20px;
+}
+
+.clients .containercards .card .cardcontent .person h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.clients .containercards .card .cardcontent .person span{
+    font-size: 0.8rem;
+    color: #808080;
+    margin-top: 10px;
 }
 
 .clients .containercards .card h3{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    color: #b90000;
-    font-weight: bold;
+    color: #E43071;
+    font-weight: bolder;
 }
 
 .clients .containercards .card q{
     font-size: .7rem;
     line-height: 2rem;
+    padding-left: 30px;
+    position: relative;
+}
+.clients .containercards .card q::before{
+    content: "“";
+    font-family:"ABeeZee", serif;
+    font-style: italic;
+    font-size: 5rem;
+    color:#b900006b;
+    position: absolute;
+    top: 5px;
+    left: -18px;
+}
+
+.conheca{
+    height: 80vh;
+}
+
+.conheca .textcontent{
+    margin: 30px 0px 80px 0px;
+    text-align: center;
+}
+
+.conheca .textcontent h2{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.conheca .textcontent p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.conheca .cards{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.conheca .cards .card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 10px 30px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px 2px #0000003f;
+    text-align: left;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;   
+}
+
+.conheca .cards .card .cardcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conheca .cards .card .cardcontent h3{
+    margin-top: 30px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-align: center;
+    color: grey;
 }
