@@ -294,7 +294,7 @@ nav ul li button:hover{
     box-shadow: 2px 2px 4px 2px #0000003f;
     text-align: left;
     border-radius: 10px;
-    width: 200px;
+    width: 250px;
     height: 200px;   
 }
 
@@ -331,9 +331,10 @@ nav ul li button:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 30px 30px 10px 30px;
 }
 
 .fotosdaacademia .imagelist .image{
+    width: 30%;
 }
