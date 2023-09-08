@@ -337,3 +337,67 @@ nav ul li button:hover{
     width: 33%;
     padding: 0px 5px;
 }
+
+.contato{
+    height: 80vh;
+}
+
+.contato .textcontent h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 40%;
+}
+
+.contato form .row{
+    margin: 20px; 
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.contato form .row .inputfield{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 20px;
+}
+
+.contato form .row .inputfield label{
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    color: #808080;
+}
+
+.contato form .row .inputfield input{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 1px solid #808080;
+}
+
+.contato form .row .inputfield textarea{
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    resize: none;
+    border: 1px solid #808080;
+}
+
+.contato form .buttonform button{
+    font-size: 0.9rem;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #1164ff;
+}
