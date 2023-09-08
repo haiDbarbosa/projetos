@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitLife</title>
+    <script src="https://kit.fontawesome.com/d3b31847ee.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/base.css">
@@ -13,11 +14,11 @@
         <nav>
             <img src="assets/logo.png" alt="logo">
             <ul>
-                <li>Inicio</li>
-                <li>Beneficios</li>
-                <li>Clientes</li>
-                <li>Sobre a academia</li>
-                <li>Contato</li>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#testimonial">Clientes</a></li>
+                <li><a href="#conheca">Sobre a academia</a></li>
+                <li><a href="#contato">Contato</a></li>
                 <li><button>Entrar</button></li>
             </ul>
         </nav>
@@ -27,7 +28,7 @@
                 <div class="text-content">
                      <h1>Bem vindo a FitLife</h1>
                      <h3>A academia perfeita para você</h3>
-                     <button>Conheça a academia</button>
+                     <a href="#conheca"><button>Conheça a academia</button></a>
                 </div>
         </section>
         <section class="beneficios" id="beneficios">
@@ -189,7 +190,7 @@
                             maxlength="500" 
                             id="message"
                             name="message"
-                            rows="10"></textarea>
+                            rows="7"></textarea>
                         </div>
                     </div>
                     <div class="buttonform">
@@ -200,7 +201,55 @@
         </section>
     </main>
     <footer>
-
+        <div class="rowfooter">
+            <div class="logofooter">
+                <img src="assets/logo.png" alt="logo">
+            </div>
+            <div class="contentfooter">
+                <div class="linksfooter">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>
+                            <a href="#hero">Inicio</a></li>
+                        <li><a href="#beneficios">Beneficios</a></li>
+                        <li><a href="#conheca">Sobre a academia</a></li>
+                        <li>Entrar</li>
+                    </ul>
+                </div>
+                <div class="contatofooter">
+                    <h3>Nosso contato</h3>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>fitlife@email.com
+                        </li>
+                        <li><i class="fa-solid fa-phone"></i>(xx)xxxxx-xxxx</li>
+                        <li><i class="fa-solid fa-location-pin"></i>Campo Grande, MS</li>
+                    </ul>
+                    <ul class="socialmediafooter">
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#conheca">
+                                <i class="fa-solid fa-basketball"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.x.com" target="_blank">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com" target="_blank">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

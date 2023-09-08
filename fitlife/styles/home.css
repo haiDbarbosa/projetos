@@ -24,6 +24,12 @@ nav ul li{
     color: #ffffff;
 }
 
+nav ul li a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 nav ul li button{
     font-size: 18px;
     color: #b90000;
@@ -31,7 +37,8 @@ nav ul li button{
     width: 120px;
     height: 35px;
     border-radius: 150px;
-    border: none
+    border: none;
+    cursor: pointer;
 }
 
 nav ul li button:hover{
@@ -75,6 +82,7 @@ nav ul li button:hover{
     height: 50px;
     border: none;
     border-radius: 999px;
+    cursor: pointer;
 }
 
 .hero .text-content button:hover{
@@ -400,4 +408,60 @@ nav ul li button:hover{
     border-radius: 5px;
     color: #ffffff;
     background-color: #1164ff;
+    cursor: pointer;
+}
+
+footer{
+    height:30vh;
+    margin-top: 250px;
+    padding: 60px 40px 0px 40px;
+    background-color: #0f0f1f;
+}
+
+footer .rowfooter{
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer .rowfooter .contentfooter{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+footer .rowfooter h3{
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+footer .rowfooter li{
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+footer .rowfooter li a{
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+footer .rowfooter li i{
+    color: #E43071;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+footer .rowfooter .contentfooter .contatofooter .socialmediafooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
+    background-color: #80808063;
+    padding:7px 5px 5px 5px;
+    color: #ffffff;
+    font-size: 0.8rem;
+    border-radius: 999px;
 }
