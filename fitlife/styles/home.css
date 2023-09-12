@@ -108,11 +108,20 @@ nav ul li button:hover{
 
 .beneficios .item .itemphoto{
     display:flex;
-    justify-content: left;
+    justify-content: flex-end;
+}
+
+.beneficios .item.reverse{
+    flex-direction: row-reverse;
+}
+
+.beneficios .item .item.reverse .itemphoto{
+    display: flex;
+    justify-content: right;
 }
 
 .beneficios .item .itemphoto .imgitem{
-    width: 70%;
+    width: 90%;
     height: auto;
 }
 .beneficios .item .item-text{
