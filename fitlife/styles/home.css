@@ -101,22 +101,21 @@ nav ul li button:hover{
     margin-top: 40px;
     display:flex;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
     flex-direction: row;
     align-items: center;
 }
 
 .beneficios .item .itemphoto{
     display:flex;
-    justify-content: flex-end;
+    justify-content: left;
 }
 
 .beneficios .item.reverse{
     flex-direction: row-reverse;
 }
 
-.beneficios .item .item.reverse .itemphoto{
-    display: flex;
+.beneficios .item.reverse .itemphoto{
     justify-content: right;
 }
 
@@ -475,7 +474,7 @@ footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
     border-radius: 999px;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:700px){
     .hero .text-content h1{
         font-size: 3rem;
     }
@@ -486,7 +485,18 @@ footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
         flex-direction: column;
         justify-content: center;
     }
+    .beneficios .item.reverse{
+        flex-direction: column;
+        justify-content: center;
+    }
     .beneficios .item .itemphoto{
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        aspect-ratio: 16/9;
+        overflow: hidden;
+    }
+    .beneficios .item.reverse .itemphoto{
         align-items: center;
         justify-content: center;
     }
