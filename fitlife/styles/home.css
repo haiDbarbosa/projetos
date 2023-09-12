@@ -2,13 +2,14 @@ nav{
     display: flex;
     position: fixed;
     justify-content: space-between;
-    background-color: #b90000;
+    background-color: var(--primary);
     height: 10vh;
     width: 100%;
     z-index: 999;
 }
 
 nav img{
+    height: 100%;
     margin-left: 20px;
 }
 
@@ -46,6 +47,10 @@ nav ul li button:hover{
     background-color: #b90000;
     transition: 400ms;
     border: 1px solid #ffffff;
+}
+
+nav .menu{
+    display: none;
 }
 
 .hero{
@@ -474,7 +479,19 @@ footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
     border-radius: 999px;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:992px){
+    nav ul{
+        display: none;
+    }
+    nav .menu{
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
     .hero .text-content h1{
         font-size: 3rem;
     }
@@ -505,5 +522,4 @@ footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
         width: 100%;
         margin-top: 30px;
     }
-
 }
