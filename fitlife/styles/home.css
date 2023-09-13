@@ -150,7 +150,7 @@ nav .menu{
 }
 
 .clients{
-    min-height: 90vh;
+    min-height: 80vh;
     width: 100%;
     background-image: linear-gradient(to bottom, #ffffff, #b900006b);
 }
@@ -521,5 +521,91 @@ footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
         max-width: 100%;
         width: 100%;
         margin-top: 30px;
+    }
+    .clients .text{
+        text-align: center;
+    }
+    
+    .clients .text h2{
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .clients .text p{
+        font-size: 1.3rem;
+    }
+    
+    .clients .containercards{
+        flex-direction: column;
+    }
+    
+    .clients .containercards .left{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .clients .containercards .right{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 0px;
+    }
+    
+    .clients .containercards .left .vertical{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .clients .containercards .right .horizontal{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .clients .containercards .right .retangular{
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .clients .containercards .card{
+        min-width: 100%;
+    }
+
+    .clients .containercards .card .cardcontent .person .image{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .clients .containercards .card .cardcontent .person h4{
+        font-size: 1rem;
+    }
+    
+    .clients .containercards .card .cardcontent .person span{
+        font-size: 0.7rem;
+    }
+    
+    .clients .containercards .card h3{
+        font-size: 1.5rem;
+    }
+    
+    .clients .containercards .card q{
+        font-size: .7rem;
+        line-height: 1.5rem;
+    }
+    .clients .containercards .card q::before{
+        content: "“";
+        font-family:"ABeeZee", serif;
+        font-style: italic;
+        font-size: 4rem;
+        color:#b900006b;
+        position: absolute;
+        top: 5px;
+        left: -18px;
     }
 }
