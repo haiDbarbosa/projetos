@@ -599,13 +599,6 @@ footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
         line-height: 1.5rem;
     }
     .clients .containercards .card q::before{
-        content: "“";
-        font-family:"ABeeZee", serif;
-        font-style: italic;
         font-size: 4rem;
-        color:#b900006b;
-        position: absolute;
-        top: 5px;
-        left: -18px;
     }
 }
