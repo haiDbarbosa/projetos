@@ -282,7 +282,7 @@ nav .menu{
 }
 
 .conheca{
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .conheca .textcontent{
@@ -314,7 +314,8 @@ nav .menu{
     background-color: #ffffff;
     box-shadow: 2px 2px 4px 2px #0000003f;
     border-radius: 10px;
-    width: 280px;
+    width: 20%;
+    min-width: 100px;
     height: 200px;   
 }
 
@@ -338,7 +339,7 @@ nav .menu{
 }
 
 .fotosdaacademia .textcontent{
-    margin: 100px 0px 30px 0px;
+    margin: 0px 0px 30px 0px;
     text-align: center;
 }
 
@@ -598,7 +599,33 @@ footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
         font-size: .7rem;
         line-height: 1.5rem;
     }
+
     .clients .containercards .card q::before{
         font-size: 4rem;
     }
+    
+    .conheca .cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conheca .cards .card{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .fotosdaacademia .imagelist{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotosdaacademia .imagelist .image{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    
+
 }
