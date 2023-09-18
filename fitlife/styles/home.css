@@ -362,6 +362,7 @@ nav .menu{
 
 .contato{
     height: 80vh;
+    clear: both;
 }
 
 .contato .textcontent h2{
@@ -426,7 +427,7 @@ nav .menu{
 }
 
 footer{
-    height:30vh;
+    min-height:40vh;
     margin-top: 250px;
     padding: 60px 40px 0px 40px;
     background-color: #0f0f1f;
@@ -626,6 +627,52 @@ footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
         margin-bottom: 20px;
     }
 
+    .contato{
+        height: 80vh;
+    }
     
+    .contato .textcontent h2{
+        font-size: 2rem;
+    }
+    
+    .contato form{
+        width: 80%;
+    }
+    
+    .contato form .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    
+    .contato form .row .inputfield{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 20px 0px 
+    }
+    
+    .contato form .row .inputfield input{
+        font-size: 1rem;
+    }
+    
+    .contato form .row .inputfield textarea{
+        font-size: 1.1rem;
+    }
 
+    footer .rowfooter{
+        flex-direction: column;
+    }
+
+    footer .rowfooter .contentfooter{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+
+    footer .rowfooter .contentfooter .contatofooter{
+        margin-top: 20px;
+    }
 }
