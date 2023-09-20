@@ -335,7 +335,7 @@ nav .menu{
 }
 
 .fotosdaacademia{
-    height: 80vh
+    min-height: 80vh
 }
 
 .fotosdaacademia .textcontent{
@@ -352,6 +352,7 @@ nav .menu{
     width: 80%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .fotosdaacademia .imagelist .image{
@@ -362,7 +363,6 @@ nav .menu{
 
 .contato{
     height: 80vh;
-    clear: both;
 }
 
 .contato .textcontent h2{
