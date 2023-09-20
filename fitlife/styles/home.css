@@ -1,57 +1,3 @@
-nav{
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    background-color: var(--primary);
-    height: 10vh;
-    width: 100%;
-    z-index: 999;
-}
-
-nav img{
-    height: 100%;
-    margin-left: 20px;
-}
-
-nav ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-}
-
-nav ul li{
-    margin-right: 20px;
-    font-size: 20px;
-    color: #ffffff;
-}
-
-nav ul li a{
-    font-size: 20px;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-nav ul li button{
-    font-size: 18px;
-    color: #b90000;
-    background-color: #ffffff;
-    width: 120px;
-    height: 35px;
-    border-radius: 150px;
-    border: none;
-    cursor: pointer;
-}
-
-nav ul li button:hover{
-    color: #ffffff;
-    background-color: #b90000;
-    transition: 400ms;
-    border: 1px solid #ffffff;
-}
-
-nav .menu{
-    display: none;
-}
 
 .hero{
     display: flex;
@@ -482,17 +428,6 @@ footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
 }
 
 @media screen and (max-width:992px){
-    nav ul{
-        display: none;
-    }
-    nav .menu{
-        font-size: 2.5rem;
-        display: flex;
-        align-items: center;
-        color: #ffffff;
-        margin-right: 30px;
-        cursor: pointer;
-    }
 
     .hero .text-content h1{
         font-size: 3rem;
