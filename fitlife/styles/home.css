@@ -281,7 +281,7 @@
 }
 
 .fotosdaacademia{
-    min-height: 80vh
+    min-height: 50vh
 }
 
 .fotosdaacademia .textcontent{
@@ -305,126 +305,6 @@
     height: auto;
     width: 33%;
     padding: 0px 5px;
-}
-
-.contato{
-    height: 80vh;
-}
-
-.contato .textcontent h2{
-    font-size: 2.5rem;
-    font-weight: bolder;
-}
-
-.contato form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    width: 40%;
-}
-
-.contato form .row{
-    margin: 20px; 
-    display: flex;
-    height: 100%;
-    width: 100%;
-}
-
-.contato form .row .inputfield{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0px 20px;
-}
-
-.contato form .row .inputfield label{
-    font-size: 1rem;
-    font-weight: lighter;
-    margin-bottom: 10px;
-    color: #808080;
-}
-
-.contato form .row .inputfield input{
-    padding: 5px;
-    border-radius: 5px;
-    width: 100%;
-    font-size: 1.2rem;
-    border: 1px solid #808080;
-}
-
-.contato form .row .inputfield textarea{
-    padding: 5px;
-    border-radius: 5px;
-    width: 100%;
-    resize: none;
-    border: 1px solid #808080;
-}
-
-.contato form .buttonform button{
-    font-size: 0.9rem;
-    padding: 15px 20px;
-    border: none;
-    border-radius: 5px;
-    color: #ffffff;
-    background-color: #1164ff;
-    cursor: pointer;
-}
-
-footer{
-    min-height:40vh;
-    margin-top: 250px;
-    padding: 60px 40px 0px 40px;
-    background-color: #0f0f1f;
-}
-
-footer .rowfooter{
-    display: flex;
-    justify-content: flex-start;
-}
-
-footer .rowfooter .contentfooter{
-    display: flex;
-    justify-content: space-evenly;
-    width: 90%;
-}
-
-footer .rowfooter h3{
-    color: #ffffff;
-    font-size: 1.3rem;
-    margin-bottom: 20px;
-}
-
-footer .rowfooter li{
-    color: #ffffff;
-    font-size: 0.9rem;
-    margin-bottom: 20px;
-}
-
-footer .rowfooter li a{
-    color: #ffffff;
-    font-size: 0.9rem;
-    text-decoration: none;
-}
-
-footer .rowfooter li i{
-    color: #E43071;
-    font-size: 1.2rem;
-    margin-right: 10px;
-}
-
-footer .rowfooter .contentfooter .contatofooter .socialmediafooter{
-    display: flex;
-    justify-content: space-between;
-}
-
-footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
-    background-color: #80808063;
-    padding:7px 5px 5px 5px;
-    color: #ffffff;
-    font-size: 0.8rem;
-    border-radius: 999px;
 }
 
 @media screen and (max-width:992px){
@@ -560,54 +440,5 @@ footer .rowfooter .contentfooter .contatofooter .socialmediafooter i{
     .fotosdaacademia .imagelist .image{
         width: 90%;
         margin-bottom: 20px;
-    }
-
-    .contato{
-        height: 80vh;
-    }
-    
-    .contato .textcontent h2{
-        font-size: 2rem;
-    }
-    
-    .contato form{
-        width: 80%;
-    }
-    
-    .contato form .row{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 0px;
-    }
-    
-    .contato form .row .inputfield{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0px 0px 20px 0px 
-    }
-    
-    .contato form .row .inputfield input{
-        font-size: 1rem;
-    }
-    
-    .contato form .row .inputfield textarea{
-        font-size: 1.1rem;
-    }
-
-    footer .rowfooter{
-        flex-direction: column;
-    }
-
-    footer .rowfooter .contentfooter{
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        margin-top: 30px;
-    }
-
-    footer .rowfooter .contentfooter .contatofooter{
-        margin-top: 20px;
     }
 }

@@ -1,0 +1,24 @@
+.queremos{
+    padding-top: 50px;
+    text-align: center;
+}
+
+main .queremos h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+main .queremos h3{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: grey;
+    max-width: 60%;
+}
+
+@media screen and (max-width:992px){
+
+main .queremos h3{
+    min-width: 80%;
+}
+}
