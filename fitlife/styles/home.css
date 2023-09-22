@@ -206,7 +206,7 @@
 .clients .containercards .card h3{
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
-    color: #E43071;
+    color: var(--terciary);
     font-weight: bolder;
 }
 

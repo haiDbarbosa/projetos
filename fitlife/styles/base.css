@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root{
-    --primary: #b90000
+    --primary: #b90000;
+    --secondary: #ffffff;
+    --terciary: #E43071;
 }
 
 html{
