@@ -6,6 +6,7 @@
     <title>FitLife</title>
     <script src="https://kit.fontawesome.com/d3b31847ee.js" crossorigin="anonymous"></script>
     <script src="scripts/headerinteraction.js" defer></script>
+    <script src="scripts/forms.js" defer></script>
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/form.css">
@@ -177,7 +178,7 @@
                 <div class="textcontent">
                     <h2>Fale conosco</h2>
                 </div>
-                <form>
+                <form onsubmit = handleSubmit(event)>
                     <div class="row">
                         <div class="inputfield">
                             <label for="fname">Nome:</label>
@@ -210,7 +211,7 @@
                         </div>
                     </div>
                     <div class="buttonform">
-                        <button>Enviar mensagem</button>
+                        <button type="submit" id="submitButton">Enviar mensagem</button>
                     </div>
                 </form>
             </div>
