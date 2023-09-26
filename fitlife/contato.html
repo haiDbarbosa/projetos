@@ -53,25 +53,54 @@
                 <div class="textcontent">
                     <h2>Fale conosco</h2>
                 </div>
-                <form onsubmit = handleSubmit(event)>
+                <form onsubmit="handleSubmit(event)">
                     <div class="row">
                         <div class="inputfield">
-                            <label for="fname">Nome:</label>
-                            <input type="text" id="fname" name="fname">
+                            <label for="name">Nome:</label>
+                            <input
+                                placeholder="Seu nome..."
+                                type="text"
+                                id="name"
+                                name="name"
+                                value="Haian"
+                                />
+                            <span class="error" id="name-error"></span>
                         </div>
                         <div class="inputfield">
                             <label for="lastname">Sobrenome:</label>
-                            <input type="text" id="lastname" name="lastname">
+                            <input
+                                placeholder="Seu Sobrenome..."
+                                type="text"
+                                id="lastname"
+                                name="lastname"
+                                value="Barbosa"
+                                />
+                            <span class="error" id="lastname-error"></span>
                         </div>
                     </div>  
                     <div class="row">
                         <div class="inputfield">
                             <label for="email">E-mail:</label>
-                            <input type="email" id="email" name="email">
+                            <input
+                                placeholder="Seu e-mail..."
+                                type="text"
+                                id="email"
+                                name="email"
+                                value="haianlorran@gmail.com"
+                                />
+                            <span class="error" id="email-error"></span>
                         </div>
                         <div class="inputfield">
                             <label for="tel">Telefone:</label>
-                            <input maxlength="11" type="tel" id="tel" name="tel">
+                            <input
+                                placeholder="(xx) 9-9999-9999"
+                                maxlength="15"
+                                type="text"
+                                id="tel"
+                                name="tel"
+                                oninput="mascararTelefone(this)"
+                                />
+                            <span class="error" id="tel-error"></span>
                         </div>
                     </div>    
                     <div class="row">

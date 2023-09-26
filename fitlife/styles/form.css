@@ -63,6 +63,12 @@
     background-color: #1164ff;
     cursor: pointer;
 }
+.error{
+    color: #ff0000;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    padding: 8px;
+}
 
 @media screen and (max-width:992px){
     .contato{
