@@ -70,6 +70,27 @@
     padding: 8px;
 }
 
+.adress-map{
+    height: 80vh;
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.adress-map h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.adress-map .mapFlex{
+    display: flex;
+    justify-content: center;
+}
+
+.adress-map #map {
+    height: 60vh;
+    width: 70%;
+}
+
 @media screen and (max-width:992px){
     .contato{
         min-height: 100vh;

@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitLife</title>
-    <script src="https://kit.fontawesome.com/d3b31847ee.js" crossorigin="anonymous"></script>
-    <script src="scripts/headerinteraction.js" defer></script>
-    <script src="scripts/forms.js" defer></script>
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/contato.css">
@@ -14,6 +11,16 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="scripts/adressmap.js" defer></script>
+     <script src="https://kit.fontawesome.com/d3b31847ee.js" crossorigin="anonymous"></script>
+     <script src="scripts/headerinteraction.js" defer></script>
+     <script src="scripts/forms.js" defer></script>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""></script>
 </head>
 <body>
     <header>
@@ -115,6 +122,14 @@
                         <button type="submit" id="submitButton">Enviar mensagem</button>
                     </div>
                 </form>
+            </div>
+        </section>
+        <section class="adress-map">
+            <div class="container">
+                <h2>Nosso endereço</h2>
+            </div>
+            <div class="mapFlex">
+                <div id="map"></div>
             </div>
         </section>
     </main>
