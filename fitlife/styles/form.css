@@ -72,7 +72,7 @@
 
 @media screen and (max-width:992px){
     .contato{
-        height: 80vh;
+        min-height: 100vh;
     }
     
     .contato .textcontent h2{
