@@ -9,33 +9,33 @@ body{
     overflow: hidden;
 }
 
-main::after{
-    content: "aaa";
+main::after {
+    content: "";
     position: fixed;
     top: 0;
     left: 0;
     min-height: 100vh;
     width: 80vw;
 
-    background-image: linear-gradient(-233deg, #000 20%, rgba(0, 0, 0, 0) 65%);
+    background: linear-gradient(-233deg, #000 20%, rgba(0, 0, 0, 0) 65%);
 }
 
-main .character{
+main .character {
     display: none;
     height: 100vh;
 }
 
-main .character.selected{
+main .character.selected {
     display: block;
 }
 
-main .character .image{
+main .character .image {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-main .character .content{
+main .character .content {
     color: #ffffff;
     position: absolute;
     top: 0;
@@ -48,19 +48,20 @@ main .character .content{
     z-index: 1;
 }
 
-main .character .content .character-name{
+main .character .content .character-name {
     font-size: 3rem;
     font-family: 'Secular One', sans-serif;
     font-weight: 400;
     margin-bottom: 20px;
 }
 
-main .character .content .character-description{
+main .character .content .character-description {
     font-family: 'Rubik', sans-serif;
     line-height: 24px;
+    text-align: justify;
 }
 
-.content .logo{
+.content .logo {
     background-size: cover;
     background-image: url(../assets/imagens/one-piece-logo.png);
     height: 100px;
@@ -68,7 +69,7 @@ main .character .content .character-description{
     margin-bottom: 35px;
 }
 
-.buttons{
+.buttons {
     position: fixed;
     top: 0;
     right: 0;
@@ -79,21 +80,21 @@ main .character .content .character-description{
     align-items: center;
     width: 180px;
     gap: 20px;
-    background-color: #00000049;
+    background-color: #00000063;
 }
 
-.buttons .button{
+.buttons .button {
     border: none;
     border-radius: 50%;
     background: none;
     cursor: pointer;
 }
 
-.buttons .button img{
+.buttons .button img {
     border-radius: 50%;
+    box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.478);
 }
 
-.buttons .button.selected{
-    box-shadow: 0px 0px 15px #ffffff6c;
+.buttons .button.selected {
     transform: scale(1.2);
 }
