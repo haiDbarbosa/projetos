@@ -29,7 +29,6 @@
         align-items: flex-end;
         width: 100%;
         padding: 30px;
-        gap: 20px;
     }
     
     .buttons .button img{
@@ -38,12 +37,7 @@
 }
 
 
-/* @media (max-width: 425px) {
-
-    main .character .image {
-        height: auto;
-    }
-
+@media (max-width: 425px) {
     .content .logo {
         width: 170px;
         height: 75px;
@@ -59,10 +53,10 @@
 
     .buttons {
         padding: 20px;
-        top: -20%;
+        top: -5%;
     }
 
     .buttons .button img {
         max-width: 50px;
     }
-} */
+}
