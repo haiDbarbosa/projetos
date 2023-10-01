@@ -69,6 +69,14 @@ main .character .content .character-description {
     margin-bottom: 35px;
 }
 
+.content .logo.perona{
+    background-size: cover;
+    background-image: url(../assets/imagens/logo-perona.png);
+    height: 80px;
+    width: 235px;
+    margin-bottom: 30px;
+}
+
 .buttons {
     position: fixed;
     top: 0;
@@ -88,6 +96,7 @@ main .character .content .character-description {
     border-radius: 50%;
     background: none;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .buttons .button img {
@@ -100,4 +109,5 @@ main .character .content .character-description {
 
 .buttons .button.selected {
     transform: scale(1.2);
+    transition: 0.2s;
 }
