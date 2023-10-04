@@ -1,6 +1,7 @@
 
 const button = document.querySelectorAll (".button");
-const char = document.querySelectorAll (".character")
+const char = document.querySelectorAll (".character");
+
 
 
 button.forEach((button, i)=> {
