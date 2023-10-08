@@ -5,8 +5,6 @@
         if (peronaButton.classList.contains('selected')) {
             if (peronaLaugh.paused) {
                 peronaLaugh.play();
-            } else {
-                peronaLaugh.pause();
             }
         }
     });
