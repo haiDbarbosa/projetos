@@ -8,7 +8,7 @@ function parallax(e){
     .forEach(layer =>{
         const speed = layer.getAttribute('data-speed')
         
-        const x = (window.innerHeight - e.pageX*speed)/100
+        const x = (window.innerWidth - e.pageX*speed)/150
         const y = (window.innerHeight - e.pageY*speed)/250
 
     layer.style.transform = `translateX(${x}px) translateY(${y}px)`
@@ -17,7 +17,7 @@ function parallax(e){
     .forEach(layer =>{
         const speed = layer.getAttribute('data-speed')
     
-        const x = (window.innerHeight - e.pageX*speed)/120
+        const x = (window.innerWidth - e.pageX*speed)/120
         const y = (window.innerHeight - e.pageY*speed)/100
 
     layer.style.transform = `translateX(${x}px) translateY(${y}px)`
