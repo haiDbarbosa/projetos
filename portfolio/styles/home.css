@@ -1,7 +1,54 @@
-nav {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: var(--font1);
+}
+header nav {
     display: flex;
-    height: 10dvh;
-    width: 100dvh;
-    background-color: black;
+    position: fixed;
+    justify-content: flex-end;
+    flex-direction: row;
+
+    height: 8dvh;
+    width: 100%;
+    background-color: var(--color1);
+    box-shadow: 0 0 2px #0000004b;
+    z-index: 999;
 }
 
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    border-left: 1px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color2);
+    text-decoration: none;
+    font-family: var(--font1);
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    background-color: var(--color2);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
