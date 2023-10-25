@@ -79,7 +79,7 @@ main section#hero > div.container .text-content h1 {
     font-size: 8rem;
     color: var(--color2);
     font-weight: 700;
-    background-image: url(portfolio\assets\images\stripes.jpg);
+    background-image: url(images\stripes.jpg);
     
 }
 main section#hero > div.container .text-content h1.nome {
