@@ -53,7 +53,11 @@ nav ul li a:hover:after {
     width: 100%;
 }
 
-
+.container {
+    height: 80vh;
+    padding: 10px;
+    margin: 0 20px;
+}
 
 main section#hero > div.container {
     height: 100vh;
@@ -67,6 +71,8 @@ main section#hero > div.container::before {
     height: 80dvh;
     background: repeating-linear-gradient(45deg, #000,#000 20px, #fff 20px,#fff 40px);
     overflow: hidden;
+
+    animation: fadeIn 1s;
 }
 
 main section#hero > div.container .text-content {
@@ -75,6 +81,8 @@ main section#hero > div.container .text-content {
     left: 50px;
     padding: 20px;
     line-height: 5.8rem;
+
+    animation: slideLeft 1s;
 }
 main section#hero > div.container .text-content h1 {
     font-family: var(--font1);
