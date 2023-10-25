@@ -52,17 +52,19 @@ nav ul li a:after {
 nav ul li a:hover:after {
     width: 100%;
 }
-     
+
+
+
 main section#hero > div.container {
     height: 100vh;
-    overflow: hidden;
 }
+
 main section#hero > div.container::before {
     content: "";
     position: absolute;
     right: 1px;
     width: 40%;
-    height: 100dvh;
+    height: 80dvh;
     background: repeating-linear-gradient(45deg, #000,#000 20px, #fff 20px,#fff 40px);
     overflow: hidden;
 }
@@ -79,13 +81,10 @@ main section#hero > div.container .text-content h1 {
     font-size: 8rem;
     color: var(--color2);
     font-weight: 700;
-    background-image: url(images\stripes.jpg);
-    
 }
 main section#hero > div.container .text-content h1.nome {
-    font-family: var(--font1);
     font-size: 4rem;
-    color: var(--color2);
     font-weight: 300;
     padding-left: 3px;
+    color: var(--color2);
 }
