@@ -101,6 +101,17 @@ main .actions a + a{
     margin-top: 4.8rem;
 }
 
+main header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main header i {
+    color: #FF5678;
+    font-size: 3.6rem;
+}
+
 main footer p{
     font-size: 1.4rem;
     margin-top: 8rem;
@@ -122,4 +133,20 @@ main footer a {
 
 main footer a:visited {
     color: #000;
+}
+
+main form input {
+    width: 48.6rem;
+    height: 5.5rem;
+    border-radius: 1.2rem;
+    border: 0.1rem solid #35e6e95d;
+    font-size: 1.8rem;
+    padding-left: 1rem;
+}
+
+main form label {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 1rem 0 0.5rem 0;
+    display: block;
 }
