@@ -25,13 +25,22 @@
                 <label for="input-name">Nome</label>
                 <input type="text" id="input-name">
 
-                <label for="input-field">Campo de atuação</label>
-                <input type="text" id="input-field">
+                <div class="select-div">
+                    <label for="input-field">Campo de atuação</label>
+                    <select type="text" id="input-field">
+                        <option style="background-color: #ccc;"  value="" selected disabled>Selecione sua opção</option>
+                        <option value="animal-shelter">Abrigo de animais</option>
+                        <option value="child-education">Creche infantil</option>
+                        <option value="food">Centro de alimentação</option>
+                        <option value="education">Educação profissional</option>
+                    </select>
+                </div>
 
-                <label for="input-points">Pontos de coleta</label>
-                <input type="text" id="input-points">
-
-                <button><i class="fa-solid fa-circle-plus"></i></button>
+                <div class="points">
+                    <label for="input-points">Pontos de coleta</label>
+                    <input type="text" id="input-points">
+                    <button><i class="fa-solid fa-circle-plus"></i></button>
+                </div>
             </form>
 
             <div class="actions">
