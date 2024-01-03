@@ -3,6 +3,10 @@
 body {
     font-family: var(--font1);
 }
+.text-content {
+    color: #fff;
+    font-family: var(--font1);
+}
 header nav {
     display: flex;
     position: fixed;
@@ -68,8 +72,8 @@ main section#hero > div.container::before {
     position: absolute;
     right: 1px;
     width: 40%;
-    height: 80dvh;
-    background: repeating-linear-gradient(45deg, #000,#000 20px, #fff 20px,#fff 40px);
+    height: 102dvh;
+    background: repeating-linear-gradient(45deg, #000,#000 20px, #ffffff00 20px,#ffffff00 40px);
     overflow: hidden;
 
     animation: fadeIn 1s;
@@ -82,17 +86,28 @@ main section#hero > div.container .text-content {
     padding: 20px;
     line-height: 5.8rem;
 
-    animation: slideLeft 1s;
 }
 main section#hero > div.container .text-content h1 {
     font-family: var(--font1);
     font-size: 8rem;
     color: var(--color2);
     font-weight: 700;
+    animation: slideLeft 1.2s;
 }
 main section#hero > div.container .text-content h1.nome {
     font-size: 4rem;
     font-weight: 300;
     padding-left: 3px;
     color: var(--color2);
+    animation: slideLeft 1.5s;
+}
+main section#about {
+    background-color: #000;
+    height: 100vh;
+    padding-top: 10vh;
+}
+
+main section#about > div.container .text-content h2{ 
+    font-size: 5rem;
+    font-weight: 600;
 }

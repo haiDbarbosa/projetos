@@ -20,10 +20,10 @@
 
 @keyframes slideLeft{
     from{
-        transform: translateY(-300px);
+        transform: translateX(-300px);
     }
     to{
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
     0% {
