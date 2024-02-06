@@ -44,3 +44,10 @@ body {
     font-size: 1rem;
     font-family: "DM Sans", sans-serif
 }
+
+.sidebar .sidebar_library {
+    margin-top: 10px;
+    background-color: #121212;
+    padding: 16px 0px 0px 16px;
+    border-radius: 8px;
+}
